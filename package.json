@@ -1,18 +1,25 @@
 {
   "name": "Portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Portfolio",
+  "engines": {
+    "node": "5.9.1"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.4.1",
+    "express": "4.13.3"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Alfareo/Portfolio.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Edgar Lopez",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Alfareo/Portfolio/issues"
   },
